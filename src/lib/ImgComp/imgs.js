@@ -17,8 +17,19 @@ import frame1 from '../../assets/Imgs/Frame 34.svg';
 import frame2 from '../../assets/Imgs/Frame 35.svg';
 import frame3 from '../../assets/Imgs/Frame 53.svg';
 import frame4 from '../../assets/Imgs/Frame 57.svg';
-
-
+import blog from '../../assets/Imgs/blog.svg';
+import blog1 from '../../assets/Imgs/blog1.svg';
+import blog2 from '../../assets/Imgs/blog2.svg';
+import blog3 from '../../assets/Imgs/blog3.svg';
+import blog4 from '../../assets/Imgs/blog4.svg';
+import blog5 from '../../assets/Imgs/blog5.svg';
+import blog6 from '../../assets/Imgs/blog6.svg';
+import blog7 from '../../assets/Imgs/blog7.svg';
+import blog8 from '../../assets/Imgs/blog8.svg';
+import blog9 from '../../assets/Imgs/blog9.svg';
+import layer from '../../assets/Imgs/layer.png';
+import layer1 from '../../assets/Imgs/Frame.png';
+import frame125 from '../../assets/Imgs/Frame 125.svg';
 
 
 const imgs = {
@@ -41,6 +52,19 @@ const imgs = {
   frame2,
   frame3,
   frame4,
+  blog,
+  blog1,
+  blog2,
+  blog3,
+  blog4,
+  blog5,
+  blog6,
+  blog7,
+  blog8,
+  blog9,
+ layer,
+ layer1,
+ frame125,
 
 
 };

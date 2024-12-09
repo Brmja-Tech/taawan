@@ -2,112 +2,155 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&display=swap");
 
 body {
-    font-family: "Noto Kufi Arabic", sans-serif;
+  font-family: "Noto Kufi Arabic", sans-serif;
 }
-.feat{
-    width:90vw;
-    margin : auto;
-        
+.feat {
+  width: 90vw;
+  margin: auto;
 }
-.features{
-    padding : 20px;
-}
-
-.features::before{
-content:"";
-position:absolute;
-width:5px;
-height : 100%;
-background-color : #EBEBEB;
-right : 0;
-top : 0;
-
-
-}
-.features::after{
-content:"";
-position:absolute;
-width:5px;
-height : 100px;
-background-color : #C7B349;
-right : 0;
-top : 0;
-
+.features {
+  padding: 20px;
 }
 
-.vision{
-    padding : 20px;
+.features::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background-color: #ebebeb;
+  right: 0;
+  top: 0;
+}
+.features::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100px;
+  background-color: #c7b349;
+  right: 0;
+  top: 0;
 }
 
-.vision::before{
-content:"";
-position:absolute;
-width:5px;
-height : 100%;
-background-color : #C7B349;
-right : 0;
-top : 20px;
-
-}
-.man{
-    padding : 20px;
+.vision {
+  padding: 20px;
 }
 
-.man::before{
-content:"";
-position:absolute;
-width:5px;
-height : 100px;
-background-color : #C7B349;
-right : 0;
-top : 20px;
-
+.vision::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background-color: #c7b349;
+  right: 0;
+  top: 20px;
 }
-.service{
-    padding : 20px;
-}
-
-.service::before{
-content:"";
-position:absolute;
-width:5px;
-height : 100px;
-background-color : #C7B349;
-right : 0;
-top : 20px;
-
-}
-.partner{
-    padding : 20px;
+.man {
+  padding: 20px;
 }
 
-.partner::before{
-content:"";
-position:absolute;
-width:5px;
-height : 100px;
-background-color : #C7B349;
-right : 0;
-top : 20px;
-
+.man::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100px;
+  background-color: #c7b349;
+  right: 0;
+  top: 20px;
 }
-.companies{
-    padding : 20px;
+.service {
+  padding: 20px;
 }
 
-.companies::before{
-content:"";
-position:absolute;
-width:5px;
-height : 100px;
-background-color : #C7B349;
-right : 0;
-top : 20px;
-
+.service::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100px;
+  background-color: #c7b349;
+  right: 0;
+  top: 20px;
 }
+.partner {
+  padding: 20px;
+}
+
+.partner::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100px;
+  background-color: #c7b349;
+  right: 0;
+  top: 20px;
+}
+.companies {
+  padding: 20px;
+}
+
+.companies::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100px;
+  background-color: #c7b349;
+  right: 0;
+  top: 20px;
+}
+.foot {
+  padding: 20px;
+}
+
+.foot::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 40px;
+  background-color: #c7b349;
+  right: 0;
+  top: 20px;
+}
+/* anmtions OurVision*/
+
+.parent .card-one:hover,
+.parent .card-two:hover,
+.parent .card-three:hover {
+  border: 1px solid #c7b349;
+}
+.parent .card-one:hover .brd,
+.parent .card-two:hover .brd,
+.parent .card-three:hover .brd {
+  border: 1px solid #c7b349;
+}
+.parent .card-one:hover .card,
+.parent .card-two:hover .card,
+.parent .card-three:hover .card {
+  color: #fff;
+}
+
+/* amimation Link */
+.btn {
+    position: relative;
+    display: inline-block;
+    width: auto; height: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0px 25px 15px;
+    min-width: 150px;
+  }
+ 
+  .btn-1::before {
+    background-color: rgb(28, 31, 30);
+    transition: 0.3s ease-out;
+  }
+/* 4. hover-filled-slide-right */
+.btn.hover-filled-slide-right::before {
+    top:0; bottom: 0; right: 0;
+    height: 100%; width: 100%;
+  }
+  .btn.hover-filled-slide-right:hover::before {
+    width: 0%;
+  }

@@ -22,9 +22,9 @@ body {
 .features::before{
 content:"";
 position:absolute;
-width:1px;
+width:5px;
 height : 100%;
-background-color : red;
+background-color : #EBEBEB;
 right : 0;
 top : 0;
 
@@ -35,9 +35,79 @@ content:"";
 position:absolute;
 width:5px;
 height : 100px;
-background-color : orange;
+background-color : #C7B349;
 right : 0;
 top : 0;
 
+}
+
+.vision{
+    padding : 20px;
+}
+
+.vision::before{
+content:"";
+position:absolute;
+width:5px;
+height : 100%;
+background-color : #C7B349;
+right : 0;
+top : 20px;
+
+}
+.man{
+    padding : 20px;
+}
+
+.man::before{
+content:"";
+position:absolute;
+width:5px;
+height : 100px;
+background-color : #C7B349;
+right : 0;
+top : 20px;
+
+}
+.service{
+    padding : 20px;
+}
+
+.service::before{
+content:"";
+position:absolute;
+width:5px;
+height : 100px;
+background-color : #C7B349;
+right : 0;
+top : 20px;
+
+}
+.partner{
+    padding : 20px;
+}
+
+.partner::before{
+content:"";
+position:absolute;
+width:5px;
+height : 100px;
+background-color : #C7B349;
+right : 0;
+top : 20px;
+
+}
+.companies{
+    padding : 20px;
+}
+
+.companies::before{
+content:"";
+position:absolute;
+width:5px;
+height : 100px;
+background-color : #C7B349;
+right : 0;
+top : 20px;
 
 }

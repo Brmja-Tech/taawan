@@ -3,6 +3,7 @@ import Blog from './components/Blog/Blog';
 import Layout from './components/Layout/Layout';
 import NotFound from './components/NotFound/NotFound';
 import OurServices from './components/OurServices/OurServices';
+import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 import WhoAreWe from './components/WhoAreWe/WhoAreWe';
 
 import Home from './pages/Home';
@@ -15,6 +16,7 @@ let router = createBrowserRouter([
     {path:"whoAreWe",element:<WhoAreWe/>},
     {path:"ourservices",element:<OurServices/>},
     {path:"blog",element:<Blog/>},
+    {path:"servicedetails",element:<ServiceDetails/>},
     {path:"*" , element:<NotFound/>},
   ]}
 ])

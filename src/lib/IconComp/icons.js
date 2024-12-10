@@ -13,10 +13,15 @@ import { ReactComponent as ArrowLeft  } from './../../assets/Icons/arrow-left.sv
 import { ReactComponent as Phone  } from './../../assets/Icons/iconamoon_phone.svg';
 import { ReactComponent as Mail  } from './../../assets/Icons/iconoir_mail.svg';
 import { ReactComponent as Sender  } from './../../assets/Icons/sender.svg';
+import { ReactComponent as searchBlack  } from './../../assets/Icons/searchBlack.svg';
+import { ReactComponent as Clock  } from './../../assets/Icons/clock.svg';
+import { ReactComponent as arrowUp  } from './../../assets/Icons/arrow-up-right.svg';
+import { ReactComponent as ArrowLft  } from './../../assets/Icons/arrow-left.svg';
 
 
 const icons = {
   iconsearch: IconSearch,
+  searchblack :searchBlack,
   facebook :Facebook,
   linkedIn:LinkedIn,
   youtube:Youtube,
@@ -31,6 +36,10 @@ const icons = {
   phone:Phone,
   mail:Mail,
   sender:Sender,
+  clock:Clock,
+  arrowUp:arrowUp,
+  arrowlft:ArrowLft,
+
 };
 
 export default icons;

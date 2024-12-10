@@ -68,7 +68,7 @@ body {
   content: "";
   position: absolute;
   width: 5px;
-  height: 100px;
+  height: 80px;
   background-color: #c7b349;
   right: 0;
   top: 20px;
@@ -130,27 +130,50 @@ body {
   color: #fff;
 }
 
-/* amimation Link */
-.btn {
-    position: relative;
-    display: inline-block;
-    width: auto; height: auto;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    margin: 0px 25px 15px;
-    min-width: 150px;
-  }
- 
-  .btn-1::before {
-    background-color: rgb(28, 31, 30);
-    transition: 0.3s ease-out;
-  }
-/* 4. hover-filled-slide-right */
-.btn.hover-filled-slide-right::before {
-    top:0; bottom: 0; right: 0;
-    height: 100%; width: 100%;
-  }
-  .btn.hover-filled-slide-right:hover::before {
-    width: 0%;
-  }
+.swiper-container {
+  width: 900%;
+  height: auto;
+}
+
+
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 6px;
+  transition: all 0.3s ease; 
+  color: white; 
+}
+     
+.nav-link:hover {
+  color: white; 
+}
+
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px; 
+  background-color: gray; 
+  transition: width 0.3s ease-in-out; 
+}
+
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+
+.active-link::after {
+  width: 100%;
+  background-color: #C7B349; 
+}
+.active {
+ border-bottom:solid 1px #C7B349;
+}
+
+
+

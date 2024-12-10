@@ -7,7 +7,7 @@ import { Outlet, useLocation } from 'react-router-dom';
 
 
 function Layout() {
-  const location = useLocation(); // React Router hook to get current location
+  const location = useLocation(); 
 
   return <>
   

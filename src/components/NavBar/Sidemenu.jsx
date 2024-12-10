@@ -8,13 +8,13 @@ const SideMenu = ({ isOpen, toggleMenu }) => {
         <div dir='rtl' className="flex items-center justify-between p-4 border-b border-gray-200">
           <Image name="logo" width={200} className='bg-black' />
   
-          {/* زر إغلاق القائمة الجانبية */}
+          
           <button onClick={toggleMenu} className="text-gray-600 hover:text-gray-800">
             ✕
           </button>
         </div>
   
-        {/* عناصر القائمة الجانبية */}
+        
         <nav dir='rtl' className="p-4 space-y-4">
           <div className="items-start gap-4 flex flex-col">
             <div className="flex items-center gap-2 cursor-pointer">

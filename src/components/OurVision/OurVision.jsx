@@ -24,7 +24,7 @@ export default function OurVision() {
               </div>
               <div className="border brd border-[#312E36] my-6"></div>
 
-              <p className="text-[#5E5B62] text-sm md:text-base mb-96 card">
+              <p className="text-[#5E5B62] text-sm md:text-base mb-48 md:mb-96 card">
                 تحقيق الريادة فى مجال خدمات الأعمال داخل المملكة والتوسيع جغرافياً بالخليج
               </p>
             </div>
@@ -58,7 +58,7 @@ export default function OurVision() {
                 <h3 className="text-xl font-bold mx-2">رسالتنا</h3>
               </div>
               <div className="border brd border-[#312E36] my-6"></div>
-              <p className="text-[#5E5B62] text-sm md:text-base mb-96 card">
+              <p className="text-[#5E5B62] text-sm md:text-base mb-48 md:mb-96 card">
                 نسعى بشكل دائم فى تحقيق المبادرات اللازمة لرفع كفاءة العمل لدى شركائنا
               </p>
             </div>
@@ -95,7 +95,7 @@ export default function OurVision() {
               <p className="text-[#5E5B62] text-sm md:text-base card">
                 لدى الشركة عدد من القيم التى تلتزم بها وتساهم فى نمو اعمالها وهى :
               </p>
-              <ul className="list-disc list-inside text-[#5E5B62] mt-8 mb-80 card">
+              <ul className="list-disc list-inside text-[#5E5B62] mt-8 mb-40 md:mb-80 card">
                 <li>الابتكار والتميز</li>
                 <li>الكفاءة</li>
                 <li>المهنية</li>

@@ -30,6 +30,13 @@ import blog9 from '../../assets/Imgs/blog9.svg';
 import layer from '../../assets/Imgs/layer.png';
 import layer1 from '../../assets/Imgs/Frame.png';
 import frame125 from '../../assets/Imgs/Frame 125.svg';
+import blog75 from '../../assets/Imgs/blog75.svg';
+import blog11 from '../../assets/Imgs/bolg11.svg';
+import servicedetails from '../../assets/Imgs/servicedetails.svg';
+import rectangle1 from '../../assets/Imgs/Rectangle 13.svg';
+import rectangle2 from '../../assets/Imgs/Rectangle 14.svg';
+import rectangle3 from '../../assets/Imgs/Rectangle 15.svg';
+import rectangle4 from '../../assets/Imgs/Rectangle 16.svg';
 
 
 const imgs = {
@@ -65,6 +72,13 @@ const imgs = {
  layer,
  layer1,
  frame125,
+ blog75,
+ blog11,
+ servicedetails,
+ rectangle1,
+ rectangle2,
+ rectangle3,
+ rectangle4,
 
 
 };

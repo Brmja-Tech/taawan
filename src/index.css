@@ -118,16 +118,21 @@ body {
 .parent .card-two:hover,
 .parent .card-three:hover {
   border: 1px solid #c7b349;
+  transition:0.8s;
 }
 .parent .card-one:hover .brd,
 .parent .card-two:hover .brd,
 .parent .card-three:hover .brd {
   border: 1px solid #c7b349;
+  transition:0.8s;
+
 }
 .parent .card-one:hover .card,
 .parent .card-two:hover .card,
 .parent .card-three:hover .card {
   color: #fff;
+  transition:0.8s;
+
 }
 
 .swiper-container {

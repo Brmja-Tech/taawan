@@ -23,12 +23,12 @@ function Footer() {
         شركة ذات مسؤولية محدودة بمدينة الرياض تهدف لتقديم <br /> خدمات الشركات في كافة القطاعات وكافة الأنشطة.
       </p>
       <div className="text-sm flex justify-start mb-4 " >
-       <Icon name='phone' size={24} />
-        <Link className='mx-2'> 00966539822205</Link>
+       <Icon name='phone' size={24}  />
+        <Link className="mx-2 border-b-2 border-transparent hover:border-gray-400 transition-all duration-300"> 00966539822205</Link>
       </div>
       <div className="text-sm flex justify-start" >
        <Icon name='mail' size={24} />
-        <Link className='mx-2'> info@taawan.sa</Link>
+        <Link className="mx-2 border-b-2 border-transparent hover:border-gray-400 transition-all duration-300"> info@taawan.sa</Link>
       </div>
     </div>
 

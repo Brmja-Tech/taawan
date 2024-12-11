@@ -31,6 +31,10 @@ export default function Service() {
                 slidesPerView: 1, 
                 spaceBetween: 20,
               },
+              768: {
+                slidesPerView: 3, 
+                spaceBetween: 20,
+              },
               1024: {
                 slidesPerView: 3, 
                 spaceBetween: 30,
@@ -38,7 +42,7 @@ export default function Service() {
             }}
           >
             <SwiperSlide>
-              <div className="w-full sm:w-[48%] lg:w-[100%] overflow-hidden border-2 border-[#FFFFFF] p-3 mt-8 md:mt-14 relative">
+              <div className="w-full sm:w-[48%] lg:w-[100%] md:w-[100%]  overflow-hidden border-2 border-[#FFFFFF] p-3 mt-8 md:mt-14 relative">
                 <div className="relative w-full overflow-hidden">
                   <Image name="service2" className="w-full h-auto transition-transform duration-500 hover:translate-y-[-10px]" />
                   <div className="absolute inset-0 bg-black/40 flex flex-col justify-end p-4 text-white">
@@ -52,7 +56,7 @@ export default function Service() {
             </SwiperSlide>
 
             <SwiperSlide>
-              <div className="w-full sm:w-[48%] lg:w-[100%] overflow-hidden border-2 border-[#FFFFFF] p-3 mt-6 md:mt-14 relative">
+              <div className="w-full sm:w-[48%] lg:w-[100%] md:w-[100%] overflow-hidden border-2 border-[#FFFFFF] p-3 mt-6 md:mt-14 relative">
                 <div className="relative w-full overflow-hidden">
                   <Image name="service1" className="w-full h-auto transition-transform duration-500 hover:translate-y-[-10px]" />
                   <div className="absolute inset-0 bg-black/40 flex flex-col justify-end p-4 text-white">
@@ -66,7 +70,7 @@ export default function Service() {
             </SwiperSlide>
 
             <SwiperSlide>
-              <div className="w-full sm:w-[48%] lg:w-[100%] overflow-hidden border-2 border-[#FFFFFF] p-3 mt-6 md:mt-14 relative">
+              <div className="w-full sm:w-[48%] lg:w-[100%] md:w-[100%] overflow-hidden border-2 border-[#FFFFFF] p-3 mt-6 md:mt-14 relative">
                 <div className="relative w-full overflow-hidden">
                   <Image name="service" className="w-full h-auto transition-transform duration-500 hover:translate-y-[-10px]" />
                   <div className="absolute inset-0 bg-black/40 flex flex-col justify-end p-4 text-white">
@@ -80,7 +84,7 @@ export default function Service() {
             </SwiperSlide>
 
             <SwiperSlide>
-              <div className="w-full sm:w-[48%] lg:w-[100%] overflow-hidden border-2 border-[#FFFFFF] p-3 mt-8 md:mt-14 relative">
+              <div className="w-full sm:w-[48%] lg:w-[100%] md:w-[100%] overflow-hidden border-2 border-[#FFFFFF] p-3 mt-8 md:mt-14 relative">
                 <div className="relative w-full overflow-hidden">
                   <Image name="service2" className="w-full h-auto transition-transform duration-500 hover:translate-y-[-10px]" />
                   <div className="absolute inset-0 bg-black/40 flex flex-col justify-end p-4 text-white">
@@ -94,7 +98,7 @@ export default function Service() {
             </SwiperSlide>
 
             <SwiperSlide>
-              <div className="w-full sm:w-[48%] lg:w-[100%] overflow-hidden border-2 border-[#FFFFFF] p-3 mt-6 md:mt-14 relative">
+              <div className="w-full sm:w-[48%] lg:w-[100%] md:w-[100%] overflow-hidden border-2 border-[#FFFFFF] p-3 mt-6 md:mt-14 relative">
                 <div className="relative w-full overflow-hidden">
                   <Image name="service1" className="w-full h-auto transition-transform duration-500 hover:translate-y-[-10px]" />
                   <div className="absolute inset-0 bg-black/40 flex flex-col justify-end p-4 text-white">
@@ -108,7 +112,7 @@ export default function Service() {
             </SwiperSlide>
 
             <SwiperSlide>
-              <div className="w-full sm:w-[48%] lg:w-[100%] overflow-hidden border-2 border-[#FFFFFF] p-3 mt-6 md:mt-14 relative">
+              <div className="w-full sm:w-[48%] lg:w-[100%]  md:w-[100%] overflow-hidden border-2 border-[#FFFFFF] p-3 mt-6 md:mt-14 relative">
                 <div className="relative w-full overflow-hidden">
                   <Image name="service" className="w-full h-auto transition-transform duration-500 hover:translate-y-[-10px]" />
                   <div className="absolute inset-0 bg-black/40 flex flex-col justify-end p-4 text-white">

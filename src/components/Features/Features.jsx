@@ -7,8 +7,8 @@ function Features() {
   return (
     <>
     
-    <div dir='rtl' className='flex flex-col md:flex-row  justify-center my-20 feat '>
-    <div className='w-full md:w-1/2 relative features -tracking-tight order-2 md:order-1'>
+    <div dir='rtl' className='flex flex-col md:flex-row lg-flex-row justify-center my-20 feat '>
+    <div className='w-full md:w-1/2  relative features -tracking-tight order-2 md:order-1'>
     <h3 className='text-2xl md:text-6xl mb-8 md:mb-14'>من نحن</h3>
     <p className='text-lg md:text-2xl mb-4 md:mb-12'>شركة تعاون المتطورة لخدمات الأعمال</p>
     <p className='text-sm md:text-lg text-[#3C3C43] mb-4 md:mb-12'>

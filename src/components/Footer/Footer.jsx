@@ -64,7 +64,7 @@ function Footer() {
 
   
   <div className=" flex items-center justify-between bg-[#28262A]   py-4 mt-8  text-[#5E5B62] text-xs ">
-    <p className='mx-8'>© 2010-2024 taawan.com. جميع الحقوق محفوظة</p>
+    <p className='mx-8'>© 2010-2024 <a href="https://brmja.tech/"> brmja.tech </a> جميع الحقوق محفوظة</p>
     <div className="flex space-x-4 mx-8 mt-2">
       <p  className="hover:underline">شروط الاستخدام</p>
       <p  className="hover:underline">سياسة الخصوصية</p>

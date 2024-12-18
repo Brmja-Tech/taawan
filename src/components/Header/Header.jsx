@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import backgroundImage from '../../assets/imags/background.svg';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import Image from '../../lib/ImgComp/Image';
 import Icon from '../../lib/IconComp/Icon';
 import SideMenu from '../NavBar/Sidemenu';
@@ -11,6 +11,19 @@ function Header() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  const navigate = useNavigate();
+  const handleClick = () => {
+    
+    navigate('../OurServices');
+  };
+
+  const whatsappLink = 'https://wa.me/+966539822205';
+  
+  const handleButtonClick = () => {
+   
+    window.open(whatsappLink, '_blank');
+  };
+
 
   return (
     <div
@@ -97,7 +110,7 @@ function Header() {
               </div>
 
               <div className="hidden lg:flex items-center space-x-4">
-                <button className="border border-[#FFFFFF] text-white mx-2 px-4 lg:px-6 xl:px-8 py-1 relative overflow-hidden group">
+                <button onClick={handleButtonClick} className="border border-[#FFFFFF] text-white mx-2 px-4 lg:px-6 xl:px-8 py-1 relative overflow-hidden group">
                   إتصل بنا
                   <span className="absolute inset-0 bg-white opacity-50 transform scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
                 </button>
@@ -135,11 +148,11 @@ function Header() {
             </p>
 
             <div>
-              <Link className="bg-[#AC8B2E] inline-block text-white ml-5 my-10 py-1 px-16 lg:px-16 xl:px-20 relative overflow-hidden group">
+              <Link onClick={handleClick}  className="bg-[#AC8B2E] inline-block text-white ml-5 my-10 py-1 px-16 lg:px-16 xl:px-20 relative overflow-hidden group">
                 خدماتنا
                 <span className="absolute bottom-0 left-0 w-full h-full bg-white opacity-50 transform scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
               </Link>
-              <Link className="bg-transparent inline-block text-white my-2 md:my-10 py-1 px-16 lg:px-20 xl:px-20 border border-[#FFFFFF] relative overflow-hidden group">
+              <Link onClick={handleButtonClick} className="bg-transparent inline-block text-white my-2 md:my-10 py-1 px-16 lg:px-20 xl:px-20 border border-[#FFFFFF] relative overflow-hidden group">
                 تواصل معنا
                 <span className="absolute bottom-0 left-0 w-full h-full bg-white opacity-50 transform scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
               </Link>

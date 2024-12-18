@@ -15,7 +15,8 @@ function OurServices() {
         <div  className="flex items-center bg-[#EBEDF0] rounded-[50px] py-[12px] md:px-[25px]">
   <Icon name="searchblack" size={18} className="ml-2 md:ml-3" /> 
   <input type="text" placeholder="بحث عن خدمة" className="bg-transparent border-none  flex-1 outline-none" />
-  <span className="mr-4 md:mr-8 text-[#AC8B2E]">بحث</span>  
+  <span className="mr-4 md:mr-8 text-[#AC8B2E]">بحث</span>
+
 </div>
     </div>
     

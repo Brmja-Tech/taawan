@@ -5,7 +5,19 @@ import Icon from '../../lib/IconComp/Icon';
 import SideMenu from './Sidemenu'; 
 
 function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);    
+
+  
+  const [isMenuOpen, setIsMenuOpen] = useState(false); 
+
+
+  const whatsappLink = 'https://wa.me/+966539822205';
+  
+  const handleButtonClick = () => {
+   
+    window.open(whatsappLink, '_blank');
+  };
+  
+  
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen); 
@@ -15,7 +27,7 @@ function Navbar() {
     <nav className="bg-black text-white">
       <div className="mx-auto flex items-center justify-between feat">
         <div className="flex items-center space-x-4">
-        <button className="border border-[#FFFFFF] text-white mx-2 px-4 lg:px-6 xl:px-8 py-1 relative overflow-hidden group">
+        <button onClick={handleButtonClick} className="border border-[#FFFFFF] text-white mx-2 px-4 lg:px-6 xl:px-8 py-1 relative overflow-hidden group">
                   إتصل بنا
                   <span className="absolute inset-0 bg-white opacity-50 transform scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
                 </button>

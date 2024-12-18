@@ -2,10 +2,41 @@ import React from 'react'
 import Image from '../../lib/ImgComp/Image'
 import Icon from '../../lib/IconComp/Icon'
 
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+
 
 
 function Footer() {
+
+
+  const navigate = useNavigate();
+  const navigateBlog = useNavigate();
+
+  const handleClick = () => {
+    
+    navigate('/OurServices');
+  };
+ 
+  const handleClickBlog = () => {
+    
+    navigateBlog('/src/components/Blog');
+  };
+
+
+  const whatsappLink = 'https://wa.me/+966539822205';
+
+  const mailtoLink = 'info@taawan.sa';
+  
+  const handleButtonClick = () => {
+   
+    window.open(whatsappLink, '_blank');
+  };
+
+  const handleButtonmail = () => {
+    
+    window.location.href = mailtoLink;
+  };
+
   return (
     <> 
 <footer className="bg-[#1D1B20] text-white">
@@ -22,11 +53,11 @@ function Footer() {
       <p className="text-sm text-[#FFFFFF99] mb-6">
         شركة ذات مسؤولية محدودة بمدينة الرياض تهدف لتقديم <br /> خدمات الشركات في كافة القطاعات وكافة الأنشطة.
       </p>
-      <div className="text-sm flex justify-start mb-4 " >
+      <div onClick={handleButtonClick} className="text-sm flex justify-start mb-4 " >
        <Icon name='phone' size={24}  />
-        <Link className="mx-2 border-b-2 border-transparent hover:border-gray-400 transition-all duration-300"> 00966539822205</Link>
+        <Link  className="mx-2 border-b-2 border-transparent hover:border-gray-400 transition-all duration-300"> 00966539822205</Link>
       </div>
-      <div className="text-sm flex justify-start" >
+      <div onClick={handleButtonmail} className="text-sm flex justify-start" >
        <Icon name='mail' size={24} />
         <Link className="mx-2 border-b-2 border-transparent hover:border-gray-400 transition-all duration-300"> info@taawan.sa</Link>
       </div>
@@ -35,10 +66,10 @@ function Footer() {
     <div className="flex-1">
       <h3 className="text-xl relative foot font-bold mb-4">شركة تعاون</h3>
       <ul className="space-y-2 mr-4 text-sm">
-        <li><Link to="" className="text-[#5E5B62] hover:underline">تواصل معنا</Link></li>
-        <li><Link to="" className="text-[#5E5B62] hover:underline">من نحن</Link></li>
-        <li><Link to="" className="text-[#5E5B62] hover:underline">خدماتنا</Link></li>
-        <li><Link to="" className="text-[#5E5B62] hover:underline">المدونة</Link></li>
+        <li><Link onClick={handleButtonClick} className="text-[#5E5B62] hover:underline">تواصل معنا</Link></li>
+        <li><Link  className="text-[#5E5B62] hover:underline">من نحن</Link></li>
+        <li><Link onClick={handleClick} className="text-[#5E5B62] hover:underline">خدماتنا</Link></li>
+        <li><Link onClick={handleClickBlog} className="text-[#5E5B62] hover:underline">المدونة</Link></li>
       </ul>
     </div>
 

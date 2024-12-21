@@ -37,6 +37,32 @@ import rectangle1 from '../../assets/Imgs/Rectangle 13.svg';
 import rectangle2 from '../../assets/Imgs/Rectangle 14.svg';
 import rectangle3 from '../../assets/Imgs/Rectangle 15.svg';
 import rectangle4 from '../../assets/Imgs/Rectangle 16.svg';
+import img1 from '../../assets/Imgs/img1.svg';
+import img2 from '../../assets/Imgs/img2.svg';
+import img3 from '../../assets/Imgs/img3.svg';
+import img4 from '../../assets/Imgs/img4.svg';
+import img5 from '../../assets/Imgs/img5.svg';
+import img6 from '../../assets/Imgs/img6.svg';
+import img7 from '../../assets/Imgs/img7.svg';
+import img8 from '../../assets/Imgs/img8.svg';
+import blogImg1 from '../../assets/Imgs/bolg-img1.svg';
+import blogImg2 from '../../assets/Imgs/bolg-img2.svg';
+import blogImg3 from '../../assets/Imgs/bolg-img3.svg';
+import blogImg4 from '../../assets/Imgs/bolg-img4.svg';
+import blogImg5 from '../../assets/Imgs/bolg-img5.svg';
+import blogImg6 from '../../assets/Imgs/bolg-img6.svg';
+import blogImg7 from '../../assets/Imgs/bolg-img7.svg';
+import blogImg8 from '../../assets/Imgs/bolg-img8.svg';
+import blogImg9 from '../../assets/Imgs/bolg-img9.svg';
+import service2detalis from '../../assets/Imgs/service2-detalis.svg';
+import img1detalis from '../../assets/Imgs/img1-detalis.svg';
+import img2detalis from '../../assets/Imgs/img2-detalis.svg';
+import img3detalis from '../../assets/Imgs/img3-detalis.svg';
+import img4detalis from '../../assets/Imgs/img4-detalis.svg';
+import img5detalis from '../../assets/Imgs/img5-detalis.svg';
+import img6detalis from '../../assets/Imgs/img6-detalis.svg';
+import img7detalis from '../../assets/Imgs/img7-detalis.svg';
+import img8detalis from '../../assets/Imgs/img8-detalis.svg';
 
 
 const imgs = {
@@ -79,7 +105,32 @@ const imgs = {
  rectangle2,
  rectangle3,
  rectangle4,
-
+ img1,
+ img2,
+ img3,
+ img4,
+ img5,
+ img6,
+ img7,
+ img8,
+ blogImg1,
+ blogImg2,
+ blogImg3,
+ blogImg4,
+ blogImg5,
+ blogImg6,
+ blogImg7,
+ blogImg8,
+ blogImg9,
+ service2detalis,
+ img1detalis,
+ img2detalis,
+ img3detalis,
+ img4detalis,
+ img5detalis,
+ img6detalis,
+ img7detalis,
+ img8detalis,
 
 };
 

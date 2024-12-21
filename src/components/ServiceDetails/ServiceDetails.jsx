@@ -1,7 +1,16 @@
 import React from 'react'
 import Image from '../../lib/ImgComp/Image'
 import Icon from '../../lib/IconComp/Icon';
+import { Link } from 'react-router-dom';
 function ServiceDetails() {
+
+  const whatsappLink = 'https://wa.me/+966539822205';
+  
+  const handleButtonClick = () => {
+   
+    window.open(whatsappLink, '_blank');
+  };
+
   return (
     <>
 <div dir='rtl' >
@@ -9,7 +18,7 @@ function ServiceDetails() {
 <div className="text-right mb-8 mt-8 relative service -tracking-tight feat">
     <h2 className="text-lg  mt-3 md:mt-0   md:text-2xl md:mx-1 font-bold text-black">الخدمات المحاسبية</h2>
     <div className='flex items-center my-2'>
-    <p className='text-[#5E5B62] text-sm '>خدماتنا</p>
+    <Link to="/ourservices" className='text-[#5E5B62] text-sm '>خدماتنا</Link>
     <Icon name="arrowlft" size={12} />
     </div>
 
@@ -17,11 +26,9 @@ function ServiceDetails() {
 
   <div className='feat'>
   <div className="flex-col justify-center items-end h-full">
-  <Image name="servicedetails" className="max-w-full max-h-full" />
-  <h4 className='text-[#3C3C43] text-2xl my-3'>الخدمات المحاسبية</h4> 
-  <p className='text-[#5E5B62] text-base mb-8'>ذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
-ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق
+  <Image name="service2detalis" className="max-w-full max-h-full" />
+  <h4 className='text-[#3C3C43] text-2xl mt-10'>الخدمات المحاسبية</h4> 
+  <p className='text-[#5E5B62] text-lg my-10'>الخدمات المحاسبية هي مجموعة من الأنشطة والمهام التي تهدف إلى إدارة وتسجيل وتحليل العمليات المالية للشركات والمؤسسات بشكل دقيق وموثوق. تساعد هذه الخدمات في ضمان الامتثال للقوانين المالية والتنظيمية وتوفير رؤية واضحة لأداء الأعمال واتخاذ القرارات المالية المستنيرة توفر هذه الخدمات مرونة ووقتاً للشركات للتركيز على تطوير أعمالها الأساسية بدلاً من الانشغال بالأعمال المحاسبية الروتينية 
 </p>
 
 </div>
@@ -48,7 +55,7 @@ function ServiceDetails() {
        </div>
 
        <div className='flex justify-center'>
-        <button className='bg-[#C7B349] text-white text-lg px-[50px] py-[4px]'>تواصل الآن</button>
+        <button onClick={handleButtonClick} className='bg-[#C7B349] text-white text-lg px-[50px] py-[4px]'>تواصل الآن</button>
         </div>
 
           </div>
@@ -71,7 +78,7 @@ function ServiceDetails() {
 
        </div>
        <div className='flex justify-center'>
-         <button className='bg-[#C7B349] text-white text-lg px-[50px] py-[4px]'>تواصل الآن</button>
+         <button onClick={handleButtonClick} className='bg-[#C7B349] text-white text-lg px-[50px] py-[4px]'>تواصل الآن</button>
          </div>
 
           </div>
@@ -92,7 +99,7 @@ function ServiceDetails() {
        </div>
 
        <div className='flex justify-center'>
-        <button className='bg-[#C7B349] text-white text-lg px-[50px] py-[4px]'>تواصل الآن</button>
+        <button onClick={handleButtonClick} className='bg-[#C7B349] text-white text-lg px-[50px] py-[4px]'>تواصل الآن</button>
         </div>
 
           </div>

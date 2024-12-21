@@ -28,8 +28,10 @@ function Features() {
         التكاليف وزيادة الإيرادات وبناء إسم تجارى قوى من خلال فريق عمل <br />
         لديهم الكفاءة والمهارة وخبرة فى تطوير وإدارة الشركات.
     </p>
-    <Link onClick={handleClick}  className='bg-[#AC8B2E] inline-block text-white ml-5 mt-6 md:mt-14 py-2 px-14'>
+    <Link onClick={handleClick}  className='bg-[#AC8B2E] inline-block text-white ml-5 mt-6 md:mt-14 py-2 px-14 relative overflow-hidden group'>
         خدماتنا
+        <span className="absolute bottom-0 left-0 w-full h-full bg-white opacity-50 transform scale-x-0 group-hover:scale-x-100 transition-all duration-500"></span>
+    
     </Link>
 </div>
 

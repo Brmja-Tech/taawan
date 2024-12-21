@@ -1,7 +1,10 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules"; 
+import { Autoplay , Navigation} from "swiper/modules"; 
 import "swiper/css/autoplay";
+import 'swiper/css/navigation';
+import "swiper/css";
+
 import Image from "../../lib/ImgComp/Image";
 
 
@@ -14,10 +17,10 @@ export default function OurCompanies() {
         </div>
         <div dir="rtl" className="my-16 feat">
           <Swiper
-            modules={[Autoplay]} 
+            modules={[Autoplay , Navigation]} 
             autoplay={{
               delay: 3000,
-              disableOnInteraction: false,
+              disableOnInteraction: true,
             }}
             loop={true}
             spaceBetween={20} 
@@ -32,6 +35,7 @@ export default function OurCompanies() {
                 spaceBetween: 30,
               },
             }}
+           navigation={true} 
           >
             <SwiperSlide>
               <div className="flex flex-col items-center w-full p-6 border border-[#EBEDF0]">
@@ -40,12 +44,8 @@ export default function OurCompanies() {
                 </div>
                 <div className="border-2 border-[#EBEDF0] w-full"></div>
                 <div className="mt-5">
-                  <h3 className="text-lg text-right font-bold text-black mb-3">شركة تعاون</h3>
-                  <p className="text-sm text-gray-600 mb-12 md:mb-24">
-                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
-                    العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد
-                    الحروف التى يولدها <br /> التطبيق.
-                  </p>
+                  <h3 className="text-lg text-center font-bold text-black mb-3">شركة تعاون</h3>
+                
                 </div>
               </div>
             </SwiperSlide>
@@ -58,12 +58,8 @@ export default function OurCompanies() {
                 </div>
                 <div className="border-2 border-[#EBEDF0] w-full"></div>
                 <div className="mt-5">
-                  <h3 className="text-lg text-right font-bold text-black mb-3">شركة إتقان</h3>
-                  <p className="text-sm text-gray-600 mb-12 md:mb-24">
-                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
-                    العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد
-                    الحروف التى يولدها <br /> التطبيق.
-                  </p>
+                  <h3 className="text-lg text-center font-bold text-black mb-3">شركة إتقان</h3>
+                 
                 </div>
               </div>
             </SwiperSlide>
@@ -75,12 +71,8 @@ export default function OurCompanies() {
                 </div>
                 <div className="border-2 border-[#EBEDF0] w-full"></div>
                 <div className="mt-5">
-                  <h3 className="text-lg text-right font-bold text-black mb-3">شركة جرين هوم</h3>
-                  <p className="text-sm text-gray-600 mb-12 md:mb-24">
-                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
-                    العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد
-                    الحروف التى يولدها <br /> التطبيق.
-                  </p>
+                  <h3 className="text-lg text-center font-bold text-black mb-3">شركة جرين هوم</h3>
+                 
                 </div>
               </div>
             </SwiperSlide>
@@ -91,12 +83,8 @@ export default function OurCompanies() {
                 </div>
                 <div className="border-2 border-[#EBEDF0] w-full"></div>
                 <div className="mt-5">
-                  <h3 className="text-lg text-right font-bold text-black mb-3">شركة إتقان</h3>
-                  <p className="text-sm text-gray-600 mb-12 md:mb-24">
-                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
-                    العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد
-                    الحروف التى يولدها <br /> التطبيق.
-                  </p>
+                  <h3 className="text-lg text-center font-bold text-black mb-3">شركة إتقان</h3>
+                
                 </div>
               </div>
             </SwiperSlide>
@@ -107,12 +95,8 @@ export default function OurCompanies() {
                 </div>
                 <div className="border-2 border-[#EBEDF0] w-full"></div>
                 <div className="mt-5">
-                  <h3 className="text-lg text-right font-bold text-black mb-3">شركة تعاون</h3>
-                  <p className="text-sm text-gray-600 mb-12 md:mb-24">
-                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
-                    العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد
-                    الحروف التى يولدها <br /> التطبيق.
-                  </p>
+                  <h3 className="text-lg text-center font-bold text-black mb-3">شركة تعاون</h3>
+                
                 </div>
               </div>
             </SwiperSlide>
@@ -123,12 +107,7 @@ export default function OurCompanies() {
                 </div>
                 <div className="border-2 border-[#EBEDF0] w-full"></div>
                 <div className="mt-5">
-                  <h3 className="text-lg text-right font-bold text-black mb-3">شركة جرين هوم</h3>
-                  <p className="text-sm text-gray-600 mb-12 md:mb-24">
-                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
-                    العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد
-                    الحروف التى يولدها <br /> التطبيق.
-                  </p>
+                  <h3 className="text-lg text-center font-bold text-black mb-3">شركة جرين هوم</h3>
                 </div>
               </div>
             </SwiperSlide>

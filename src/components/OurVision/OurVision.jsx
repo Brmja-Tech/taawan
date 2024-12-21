@@ -5,7 +5,7 @@ import Image from '../../lib/ImgComp/Image'
 export default function OurVision() {
   return (
     <>
-      <div dir="rtl" className="bg-[#1D1B20] text-white py-10 px-4">
+      <div dir="rtl" className="bg-ourvision text-white py-10 px-4">
         <div className="mb-10 relative vision -tracking-tight feat">
           <h2 className="text-2xl lg:text-4xl font-bold inline-block px-2">
             التوجه الاستراتيجى
@@ -14,13 +14,19 @@ export default function OurVision() {
 
         <div className="flex flex-col lg:flex-row gap-6 mx-5 parent">
           {/* First Card */}
-          <div className="bg-[#00000033] flex-1 p-6 flex flex-col card-one justify-between relative overflow-hidden group">
+          <div className="bg-[#FFFFFF] flex-1 p-6 flex flex-col card-one justify-between relative overflow-hidden group">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <span>
-                  <Icon name="eye" size={48} className="icon-vision" />
-                </span>
-                <h3 className="text-xl font-bold mx-2">رؤيتنا</h3>
+                     
+              <span className="group-hover:hidden">
+                <Icon name="eye" size={48} className="icon-vision" />
+              </span>
+              
+              
+              <span className="hidden group-hover:block">
+                <Icon name="fluenteye" size={48} className="icon-new" />
+              </span>
+                <h3 className="text-[#000] text-xl font-bold mx-2">رؤيتنا</h3>
               </div>
               <div className="border brd border-[#312E36] my-6"></div>
 
@@ -49,13 +55,18 @@ export default function OurVision() {
           </div>
 
           {/* Second Card */}
-          <div className="bg-[#00000033] flex-1 p-6 flex flex-col card-two justify-between relative overflow-hidden group">
+          <div className="bg-[#FFFFFF] flex-1 p-6 flex flex-col card-two justify-between relative overflow-hidden group">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <span>
-                  <Icon name="send" size={48} className="icon-vision" />
-                </span>
-                <h3 className="text-xl font-bold mx-2">رسالتنا</h3>
+              <span className="group-hover:hidden">
+                <Icon name="send" size={48} className="icon-vision" />
+              </span>
+              
+              
+              <span className="hidden group-hover:block">
+                <Icon name="fasend" size={48} className="icon-new" />
+              </span>
+                <h3 className="text-[#000] text-xl font-bold mx-2">رسالتنا</h3>
               </div>
               <div className="border brd border-[#312E36] my-6"></div>
               <p className="text-[#5E5B62] text-sm md:text-base mb-48 md:mb-96 card">
@@ -83,13 +94,18 @@ export default function OurVision() {
           </div>
 
           {/* Third Card */}
-          <div className="bg-[#00000033] flex-1 p-6 flex flex-col card-three justify-between relative overflow-hidden group">
+          <div className="bg-[#FFFFFF] flex-1 p-6 flex flex-col card-three justify-between relative overflow-hidden group">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <span>
-                  <Icon name="huge" size={48} className="icon-vision" />
-                </span>
-                <h3 className="text-xl font-bold mx-2">القيم</h3>
+                <span className="group-hover:hidden">
+                <Icon name="huge" size={48} className="icon-vision" />
+              </span>
+              
+              
+              <span className="hidden group-hover:block">
+                <Icon name="hugeicons" size={48} className="icon-new" />
+              </span>
+                <h3 className="text-[#000] text-xl font-bold mx-2">القيم</h3>
               </div>
               <div className="border brd border-[#312E36] my-6"></div>
               <p className="text-[#5E5B62] text-sm md:text-base card">

@@ -130,7 +130,7 @@ body {
 .parent .card-one:hover .card,
 .parent .card-two:hover .card,
 .parent .card-three:hover .card {
-  color: #fff;
+  color: #000;
   transition:0.8s;
 
 }
@@ -178,6 +178,62 @@ body {
 }
 .active {
  border-bottom:solid 1px #C7B349;
+}
+
+
+/* some edit */
+.bg-ourvision {
+  background-image: url('../src/assets/background-img/image.svg');
+  background-size: cover;   
+  background-position: center; 
+}
+
+
+
+@media (max-width: 640px) {
+  .number {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.swiper-pagination {
+  bottom: 10px;
+  margin-top: 20px;  
+}
+
+.swiper-pagination-bullet {
+  background-color: #C7B349;  
+  width: 12px;
+  height: 12px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000;  
+}
+
+
+
+/* تخصيص تصميم الأسهم */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 15px;
+  height: 15px;
+  border:1px solid #000 ;
+  border-radius: 50%;  /* جعل الأسهم دائرية */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;  /* لون الأيقونة */
+  z-index: 10;  /* رفع ترتيب العناصر لكي تكون مرئية */
+  padding:30px;
+}
+
+/* تخصيص الأيقونات داخل الأسهم */
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 16px;  /* حجم الأيقونة */
+  color: #000;  /* تأكيد أن الأيقونات بيضاء */
 }
 
 

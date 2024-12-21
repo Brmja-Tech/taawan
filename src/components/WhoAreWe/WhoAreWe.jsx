@@ -29,12 +29,12 @@ function WhoAreWe() {
 
      <div className='w-full md:w-1/2 flex-col  gap-3 md:gap-6 order-1 md:order-2'>
   
-  <div className='flex flex-row space-y-4 w-1/2 gap-3'>
+  <div className='flex flex-row w-1/2 gap-3'>
   <Image name='frame' className='w-full rounded-[34px] opacity-[25%]' />
     <Image name='whoarewe1' className='w-full' />
 
   </div>
-  <div className='w-full flex'>
+  <div className='w-full flex mt-3'>
   <Image name='whoarewe2' className='w-full' />
   </div>
 </div>
@@ -45,57 +45,54 @@ function WhoAreWe() {
 </div>
 
 <div dir='rtl' className='flex flex-col-reverse md:flex-row justify-center items-center my-20 feat'>
-    
-    <div className='w-full md:w-1/2 relative man -tracking-tight'>
-        <h3 className='text-xl md:text-[40px] mb-4 md:mb-14 font-bold'>لماذا نحن ؟</h3>
-        <div className='flex items-start'>
-    <p className='bg-[#C7B349] rounded-full text-white w-10 h-10 flex items-center justify-center border-4 border-white'>
+  <div className='w-full md:w-1/2 relative man '>
+    <h3 className='text-xl md:text-[40px] mb-4 md:mb-14 font-bold leading-relaxed'>لماذا نحن ؟</h3>
+
+    <div className='flex items-center mb-4 md:mb-14'>
+      <p className='bg-[#C7B349] rounded-full text-white w-12 h-12 flex items-center justify-center border-4 border-white mr-4 min-w-[48px] min-h-[48px]'>
         1
-    </p>
-    <p className='text-sm md:text-[18px] mb-4 md:mb-14 text-[#3C3C43]'>
-        شركة تعاون لخدمات الاعمال تقدم حلولا متطورة للمنشأت وتحسن <br />
-        من ادائها عبر العديد من الخدمات والحلول الاستراتيجية بالاضافة <br />
-        الي تزويد اصحاب الشركات بالافكار التي تعزز من ارباحهم وخدماتهم <br />
-        للعملاء
-    </p>
-</div>
+      </p>
+      <p className='text-justify text-justify-inter-word text-sm md:text-[18px] text-[#3C3C43] leading-relaxed'>
+        شركة تعاون لخدمات الاعمال تقدم حلولا متطورة للمنشأت وتحسن من ادائها عبر العديد من الخدمات والحلول الاستراتيجية بالاضافة الي تزويد اصحاب الشركات بالافكار التي تعزز من ارباحهم وخدماتهم للعملاء
+      </p>
+    </div>
 
-<div className='flex items-start'>
-    <p className='bg-[#C7B349] rounded-full text-white  w-10 h-10 flex items-center justify-center border-4 border-white'>
+    <div className='flex items-center mb-4 md:mb-14'>
+      <p className='bg-[#C7B349] rounded-full text-white w-12 h-12 flex items-center justify-center border-4 border-white mr-4 min-w-[48px] min-h-[48px]'>
         2
-    </p>
-        <p className='text-sm md:text-lg text-[#3C3C43] mb-4 md:mb-14'>
-            فريق عمل متخصص في كافة المجالات مما يساعد الشركات علي <br />
-            تقليل التكاليف وزيادة الايرادات وبناء اسم تجاري قوي
-        </p>
-</div>
+      </p>
+      <p className='text-justify text-justify-inter-word text-sm md:text-lg text-[#3C3C43] leading-relaxed'>
+        فريق عمل متخصص في كافة المجالات مما يساعد الشركات علي <br />
+        تقليل التكاليف وزيادة الايرادات وبناء اسم تجاري قوي
+      </p>
+    </div>
 
-<div className='flex items-start'>
-    <p className='bg-[#C7B349] rounded-full text-white w-10 h-10 flex items-center justify-center border-4 border-white'>
+    <div className='flex items-center mb-4 md:mb-14'>
+      <p className='bg-[#C7B349] rounded-full text-white w-12 h-12 flex items-center justify-center border-4 border-white mr-4 min-w-[48px] min-h-[48px]'>
         3
-    </p>
-        <p className='text-sm md:text-lg text-[#3C3C43] mb-4 md:mb-14'>
-            نجمع بين الكفاءه المهنية والخبرة العملية التي <br />
-            تؤهلنا لمساعدة عملاؤنا في التطور دائما
-        </p>
-        </div>
+      </p>
+      <p className='text-justify text-justify-inter-word text-sm md:text-lg text-[#3C3C43] leading-relaxed'>
+        نجمع بين الكفاءه المهنية والخبرة العملية التي <br />
+        تؤهلنا لمساعدة عملاؤنا في التطور دائما
+      </p>
+    </div>
 
-        <div className='flex items-start'>
-    <p className='bg-[#C7B349] rounded-full text-white w-10 h-10 flex items-center justify-center border-4 border-white'>
+    <div className='flex items-center mb-4 md:mb-14'>
+      <p className='bg-[#C7B349] rounded-full text-white w-12 h-12 flex items-center justify-center border-4 border-white mr-4 min-w-[48px] min-h-[48px]'>
         4
-    </p>
-        <p className='text-sm md:text-lg text-[#3C3C43] mb-4 md:mb-14'>   
-            نسعي جاهدين للتميز لضمان رضا العميل
-        </p>
+      </p>
+      <p className='text-justify text-justify-inter-word text-sm md:text-lg text-[#3C3C43] leading-relaxed'>
+        نسعي جاهدين للتميز لضمان رضا العميل
+      </p>
     </div>
+  </div>
 
-    </div>
-
-    
-    <div className='w-full md:w-1/2'>
-        <Image name='frame125' className='w-full' />
-    </div>
+  <div className='w-full md:w-1/2'>
+    <Image name='frame125' className='w-full' />
+  </div>
 </div>
+
+
 
       
     </>

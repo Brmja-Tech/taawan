@@ -7,8 +7,11 @@ import { ReactComponent as Star  } from './../../assets/Icons/iconoir_star.svg';
 import { ReactComponent as Simple  } from './../../assets/Icons/simple-line-icons_badge.svg';
 import { ReactComponent as Safety  } from './../../assets/Icons/ant-design_safety-outlined.svg';
 import { ReactComponent as Eye  } from './../../assets/Icons/fluent_eye-tracking-24-filled.svg';
+import { ReactComponent as fluenteye  } from './../../assets/Icons/fluent_eye.svg';
 import { ReactComponent as Send  } from './../../assets/Icons/fa_send-o.svg';
+import { ReactComponent as fasend  } from './../../assets/Icons/fa_send.svg';
 import { ReactComponent as Huge  } from './../../assets/Icons/hugeicons_honor.svg';
+import { ReactComponent as hugeicons } from './../../assets/Icons/hugeicons.svg';
 import { ReactComponent as ArrowLeft  } from './../../assets/Icons/arrow-left.svg';
 import { ReactComponent as Phone  } from './../../assets/Icons/iconamoon_phone.svg';
 import { ReactComponent as Mail  } from './../../assets/Icons/iconoir_mail.svg';
@@ -39,6 +42,9 @@ const icons = {
   clock:Clock,
   arrowUp:arrowUp,
   arrowlft:ArrowLft,
+  fluenteye:fluenteye,
+  fasend:fasend,
+  hugeicons:hugeicons,
 
 };
 

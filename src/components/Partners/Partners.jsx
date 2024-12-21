@@ -4,7 +4,6 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
 import Image from "../../lib/ImgComp/Image";
-
 export default function Partners() {
   return (
     <div className="my-16 feat">
@@ -21,27 +20,47 @@ export default function Partners() {
           spaceBetween={20}  
           slidesPerView={4} 
           breakpoints={{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            375: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            425: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
             640: {
-              slidesPerView: 2,
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2, 
               spaceBetween: 20,
             },
             1024: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            1025: {
               slidesPerView: 4,
               spaceBetween: 20,
             },
           }}
         >
           <SwiperSlide>
-            <Image name="rectangle1" />
+            <Image name="rectangle2" />
           </SwiperSlide>
           <SwiperSlide>
             <Image name="rectangle1" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image name="rectangle1" />
+            <Image name="rectangle3" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image name="rectangle1" />
+            <Image name="rectangle4" />
           </SwiperSlide>
           <SwiperSlide>
             <Image name="rectangle2" />

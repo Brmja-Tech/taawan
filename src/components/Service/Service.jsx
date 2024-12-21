@@ -1,6 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay ,Pagination  } from 'swiper/modules';
+import { Autoplay} from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/pagination';
@@ -19,9 +19,9 @@ export default function Service() {
 
         <div dir="rtl" className="my-16 feat">
           <Swiper
-            modules={[Autoplay , Pagination]}
+            modules={[Autoplay]}
             autoplay={{
-              delay: 3000,
+              delay: 2000,
               disableOnInteraction: true, 
             }}
             loop={true}   
@@ -41,10 +41,7 @@ export default function Service() {
                 spaceBetween: 30,
               },
             }}
-            pagination={{
-              clickable: true,  
-              dynamicBullets: true,  
-            }}
+        
           >
             <SwiperSlide>
               <div className="w-full sm:w-[48%] lg:w-[100%] md:w-[100%]  overflow-hidden border-2 border-[#FFFFFF] p-3 mt-8 md:mt-14 relative group">

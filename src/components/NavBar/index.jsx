@@ -66,7 +66,7 @@ function Navbar() {
           </NavLink>
 
           <NavLink
-            to="whoAreWe"
+            to="aboutUs"
             className="text-lg font-medium mx-2 relative group"
           >
             من نحن
@@ -74,7 +74,7 @@ function Navbar() {
           </NavLink>
 
           <NavLink
-            to="ourservices"
+            to="services"
             className="text-lg font-medium mx-2 relative group"
           >
             خدماتنا

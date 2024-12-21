@@ -23,8 +23,8 @@ let router = createBrowserRouter([
     element: <Layout />,
     children: [
       { index: true, element: <Home /> },
-      { path: "whoAreWe", element: <WhoAreWe /> },
-      { path: "ourservices", element: <OurServices /> },
+      { path: "aboutUs", element: <WhoAreWe /> },
+      { path: "services", element: <OurServices /> },
       { path: "blog", element: <Blog /> },
       { path: "servicedetails", element: <ServiceDetails /> },
       { path: "resourcesmanagement", element: <ResourcesManagement /> },

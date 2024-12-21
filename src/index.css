@@ -180,8 +180,6 @@ body {
  border-bottom:solid 1px #C7B349;
 }
 
-
-/* some edit */
 .bg-ourvision {
   background-image: url('../src/assets/background-img/image.svg');
   background-size: cover;   
@@ -214,26 +212,24 @@ body {
 
 
 
-/* تخصيص تصميم الأسهم */
 .swiper-button-next,
 .swiper-button-prev {
   width: 15px;
   height: 15px;
   border:1px solid #000 ;
-  border-radius: 50%;  /* جعل الأسهم دائرية */
+  border-radius: 50%;  
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;  /* لون الأيقونة */
-  z-index: 10;  /* رفع ترتيب العناصر لكي تكون مرئية */
+  color: white;    
+  z-index: 10;  
   padding:30px;
 }
 
-/* تخصيص الأيقونات داخل الأسهم */
 .swiper-button-next:after,
 .swiper-button-prev:after {
-  font-size: 16px;  /* حجم الأيقونة */
-  color: #000;  /* تأكيد أن الأيقونات بيضاء */
+  font-size: 16px;   
+  color: #000;  
 }
 
 

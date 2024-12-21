@@ -147,10 +147,10 @@ function Footer() {
             </div>
 
             <div className="flex mt-4  space-x-4">
-              <Icon name="facebook" className="my-6 ml-4" size={24} />
-              <Icon name="linkedIn" className="my-6 mx-4" size={24} />
-              <Icon name="youtube" className="my-6 mx-4" size={24} />
-              <Icon name="twitter" className="my-6 mx-4" size={24} />
+              <Link to="https://www.facebook.com/profile.php?id=61568523756315" target="_blank"><Icon name="facebook" className="my-6 ml-4" size={24} /></Link> 
+            <Link to="https://www.linkedin.com/company/taawan/?viewAsMember=true" target="_blank"><Icon name="linkedIn" className="my-6 mx-4" size={24} /></Link>   
+             <Link to="https://www.instagram.com/taawan.sa/profilecard/?igsh=MXY1MDVteWcycG5mMw==" target="_blank"><Icon name="insta" className="my-6 mx-4" size={24} /></Link>
+              <Link to="https://x.com/taawansa?s=11" target="_blank"><Icon name="twitter" className="my-6 mx-4" size={24} /></Link>
             </div>
           </div>
         </div>

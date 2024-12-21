@@ -65,6 +65,7 @@ import img7detalis from '../../assets/Imgs/img7-detalis.svg';
 import img8detalis from '../../assets/Imgs/img8-detalis.svg';
 
 
+
 const imgs = {
   logo,
   image,
@@ -131,6 +132,7 @@ const imgs = {
  img6detalis,
  img7detalis,
  img8detalis,
+
 
 };
 

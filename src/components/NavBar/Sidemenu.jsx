@@ -32,10 +32,10 @@ const SideMenu = ({ isOpen, toggleMenu }) => {
               <NavLink to="/" className="text-lg font-medium text-black">الرئيسية</NavLink>
             </div>
             <div className="flex items-center gap-2 cursor-pointer">
-              <NavLink to="whoAreWe" className="text-lg font-medium text-black">من نحن</NavLink>
+              <NavLink to="aboutUs" className="text-lg font-medium text-black">من نحن</NavLink>
             </div>
             <div className="flex items-center gap-2 cursor-pointer">
-              <NavLink to="ourservices" className="text-lg font-medium text-black">خدماتنا</NavLink>
+              <NavLink to="services" className="text-lg font-medium text-black">خدماتنا</NavLink>
             </div>
             <div className="flex items-center gap-2 cursor-pointer">
               <NavLink to="blog" className="text-lg font-medium text-black">المدونة</NavLink>

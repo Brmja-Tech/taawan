@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useRef } from "react";
 import backgroundImage from '../../assets/imags/background.svg';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import Image from '../../lib/ImgComp/Image';
@@ -7,6 +7,8 @@ import SideMenu from '../NavBar/Sidemenu';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const searchInputRef = useRef(null);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -22,6 +24,10 @@ function Header() {
   const handleButtonClick = () => {
    
     window.open(whatsappLink, '_blank');
+  };
+
+  const toggleSearch = () => {
+    setIsSearchOpen(!isSearchOpen);
   };
 
 
@@ -80,7 +86,7 @@ function Header() {
 
 
 <NavLink
-  to="whoAreWe"
+  to="aboutUs"
   className="text-lg font-medium mx-2 relative group"
 >
   من نحن
@@ -90,7 +96,7 @@ function Header() {
 </NavLink>
 
                 <NavLink
-                  to="ourservices"
+                  to="services"
                   className="text-lg font-medium mx-2 relative group"
                 >
                   خدماتنا
@@ -109,15 +115,30 @@ function Header() {
                 </NavLink>
               </div>
 
-              <div className="hidden lg:flex items-center space-x-4">
+              <div className="hidden lg:flex items-center space-x-4 relative" >
                 <button onClick={handleButtonClick} className="border border-[#FFFFFF] text-white mx-2 px-4 lg:px-6 xl:px-8 py-1 relative overflow-hidden group">
                   إتصل بنا
                   <span className="absolute inset-0 bg-white opacity-50 transform scale-x-0 group-hover:scale-x-100 transition-all duration-500"></span>
                 </button>
-
-                <div className="relative group">
-                  <Icon name="iconsearch" size={32} />
+                <div
+                   
+                  className="relative group search-icon"
+                  onClick={toggleSearch}
+                >
+                  <span className="cursor-pointer">
+                    <Icon name="iconsearch" size={32} />
+                  </span>
                 </div>
+                {isSearchOpen && (
+                    <div className="search-container mt-2 top-[40px] left-0  absolute">
+                      <input
+                        ref={searchInputRef}
+                        type="text"
+                        placeholder="ابحث هنا..."
+                        className="w-[250px] lg:w-[250px] px-4 py-2 border text-[#000] border-white outline-white rounded bg-[#FFF]"
+                      />
+                    </div>
+                  )}
               </div>
             </div>
           </nav>
@@ -125,16 +146,16 @@ function Header() {
 
         <div className="flex items-center justify-between mt-8 md:mt-40 lg:mt-32 xl:mt-60  feat">
           <div className="flex-col justify-start items-start">
-            <Link to="#">
+            <Link to="https://www.facebook.com/profile.php?id=61568523756315" target='_blank'>
               <Icon name="facebook" className="my-4" size={24} />
             </Link>
-            <Link to="#">
+            <Link to="https://www.linkedin.com/company/taawan/?viewAsMember=true" target='_blank'>
               <Icon name="linkedIn" className="my-4" size={24} />
             </Link>
-            <Link to="#">
-              <Icon name="youtube" className="my-4" size={24} />
+            <Link to="https://www.instagram.com/taawan.sa/profilecard/?igsh=MXY1MDVteWcycG5mMw==" target='_blank'>
+              <Icon name="insta" className="my-4" size={24} />
             </Link>
-            <Link to="#">
+            <Link to="https://x.com/taawansa?s=11" target='_blank'>
               <Icon name="twitter" className="my-4" size={24} />
             </Link>
           </div>

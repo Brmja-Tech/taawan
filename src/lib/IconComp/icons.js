@@ -20,6 +20,7 @@ import { ReactComponent as searchBlack  } from './../../assets/Icons/searchBlack
 import { ReactComponent as Clock  } from './../../assets/Icons/clock.svg';
 import { ReactComponent as arrowUp  } from './../../assets/Icons/arrow-up-right.svg';
 import { ReactComponent as ArrowLft  } from './../../assets/Icons/arrow-left.svg';
+import { ReactComponent as insta  } from './../../assets/Icons/insta.svg';
 
 
 const icons = {
@@ -45,6 +46,7 @@ const icons = {
   fluenteye:fluenteye,
   fasend:fasend,
   hugeicons:hugeicons,
+  insta:insta,
 
 };
 
